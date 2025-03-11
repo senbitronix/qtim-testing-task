@@ -76,7 +76,6 @@ $button-size: 44px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    justify-content: center;
 
     button {
         border-radius: 12px;
