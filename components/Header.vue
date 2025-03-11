@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <NuxtLink
-            to="/"
+            to="/posts"
             class="header__logo"
         >
             <img
