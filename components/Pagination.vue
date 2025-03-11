@@ -71,6 +71,7 @@ const visiblePages = computed(() => {
 
 <style scoped lang="scss">
 $button-size: 44px;
+$button-size-480: 34px;
 
 .pagination {
     display: flex;
@@ -87,6 +88,11 @@ $button-size: 44px;
 
         &:hover {
             background: var(--dark-grey-color);
+        }
+
+        @media (max-width: 480px) {
+            width: $button-size-480;
+            height: $button-size-480;
         }
     }
 
